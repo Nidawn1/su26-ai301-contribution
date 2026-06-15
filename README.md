@@ -32,3 +32,20 @@ The current docstring does not clearly describe the function’s real behavior w
 ### Affected Components
 
 The affected components are the internal utility function pi_check and the documentation inside that needs reviewing.
+
+### Reproduction Process
+
+- Environment Setup
+
+Forked the Qiskit repository and cloned locally.
+Created a Python virtual environment.
+Installed Qiskit development dependencies according to the project's documentation.
+
+- Steps to Reproduce
+
+Clone the Qiskit repository.
+Navigate to the source file containing the pi_check function.
+Read the current docstring for pi_check.
+Compare the documented behavior with the actual implementation.
+Observe that the docstring does not fully explain accepted inputs, return values, and edge cases.
+Review related tests and usages of pi_check throughout the codebase to confirm the actual behavior.
